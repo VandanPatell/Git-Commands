@@ -73,3 +73,12 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+
+
+### Usecases
+| Command | Description |
+| ------- | ----------- |
+| `git branch | grep -v "master" | xargs git branch -D` | delete all branch except master on local |
+| `git fetch --all` | fetch all branches from remote |
+| `git reset --hard origin/master` | sync git branch master local to brnach master remote 
