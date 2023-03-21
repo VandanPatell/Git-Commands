@@ -79,6 +79,7 @@ _A list of my commonly used Git commands_
 ### Usecases
 | Command | Description |
 | ------- | ----------- |
-| `git branch \| grep -v "master" \| xargs git branch -D` | delete all branch except master on local |
+| `git branch \| grep -v "master" \| xargs git branch -D` | delete all branch except master on local (execute on git bash) |
 | `git fetch --all` | fetch all branches from remote |
-| `git reset --hard origin/master` | sync git branch master local to brnach master remote 
+| `git reset --hard origin/master` | sync git branch master local to brnach master remote |
+| `git fetch --prune` | to remove all references stored of deleted remote branches on local |
